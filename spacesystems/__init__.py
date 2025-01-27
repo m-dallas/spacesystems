@@ -1,4 +1,4 @@
-from .version import __version__, __author__, __docs_url__
+from .version import __version__, __author__
 
 # __doc__ = '''
 # Tools for common systems engineering problems
