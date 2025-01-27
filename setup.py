@@ -34,5 +34,5 @@ setup(
                    'Topic :: Scientific/Engineering :: Physics',
                    'Topic :: Software Development :: Libraries :: Python Modules'],
     packages = ['spacesystems'],
-    install_requires = ['setuptools', 'numpy', 'astropy', 'matplotlib', 'pandas', 'datetime', 'bs4'], 
+    install_requires = ['setuptools', 'pyyaml', 'numpy', 'astropy', 'matplotlib', 'pandas', 'datetime', 'bs4'], 
 )
