@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from setuptools import setup
+from setuptools import setup, find_packages
 import os
 import yaml
 
@@ -33,5 +33,6 @@ setup(
                    'Topic :: Scientific/Engineering :: Astronomy',
                    'Topic :: Scientific/Engineering :: Physics',
                    'Topic :: Software Development :: Libraries :: Python Modules'],
+    packages=find_packages(),
     install_requires = ['setuptools', 'pyyaml', 'numpy', 'astropy', 'matplotlib', 'pandas', 'datetime', 'bs4'], 
 )

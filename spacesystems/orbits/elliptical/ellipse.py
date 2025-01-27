@@ -34,7 +34,7 @@ def semi_major_axis(apoapsis_radius, periapsis_radius):
     apoapsis_radius = apoapsis_radius.to(u.m)
     periapsis_radius = periapsis_radius.to(u.m)
 
-    a = (r_per+r_ap)/2
+    a = (periapsis_radius+apoapsis_radius)/2
     return a
 
 def semi_minor_axis(apoapsis_radius, periapsis_radius):
