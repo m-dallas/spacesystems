@@ -10,10 +10,10 @@ In a Python 3 enviroment:
 pip install spacesystems
 ```
 
-Or directly from git with an SSH key:
+Or directly from git:
 
 ```bash
-git clone git clone ssh://git@github.com:m-dallas/spacesystems.git
+git clone https://github.com/m-dallas/spacesystems.git
 cd spacesystems
 pip install .
 ```
