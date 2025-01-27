@@ -1,0 +1,22 @@
+# mac files
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# enviroment
+env/
+venv/
+.venv/
+.env
+.env.*
+
+# package
+dist/
+build/
+*.egg-info/
