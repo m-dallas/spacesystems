@@ -7,10 +7,10 @@ Installation
 In a Python 3 enviroment:
 
 ```bash
-pip install spacesystems
+pip install git+ssh://git@github.com/m-dallas/spacesystems.git
 ```
 
-Or directly from git:
+Or more directly without an ssh key:
 
 ```bash
 git clone https://github.com/m-dallas/spacesystems.git
