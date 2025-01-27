@@ -1,5 +1,4 @@
 # spacesystems
-=============
 
 Package for common operations in the JHU Space Systems Engineering program.
 
@@ -8,13 +7,13 @@ Installation
 In a Python 3 enviroment:
 
 ```bash
-pip install git+ssh://git@github.com:m-dallas/spacesystems.git
+pip install spacesystems
 ```
 
-Or directly from grit without an ssh key:
+Or directly from git with an SSH key:
 
 ```bash
-git clone https://github.com/m-dallas/spacesystems
+git clone git clone ssh://git@github.com:m-dallas/spacesystems.git
 cd spacesystems
 pip install .
 ```
